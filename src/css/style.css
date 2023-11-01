@@ -1,25 +1,17 @@
 body {
-    width: 1170px;      
+    width: 80%;    
 }
 .header {                
-    display: flex;
-    justify-content: space-between;
-    height: 100px;
-    background-color: rgb(0, 102, 255);
-    border: 2px solid darkblue;  
-    justify-content: end;   
-    align-items: center; 
-    flex-direction: row-reverse; 
+    display: flex;      
+    flex-wrap: wrap; 
+    justify-content: space-between;  
+    border: 2px solid blue;    
 }
-.header__button {
-    color: white;
-    border: 1px solid darkblue;
-    background-color: rgb(0, 102, 255);  
-    display: flex;
-    align-items: flex-start;    
-}
-.header__button:nth-child(3) {
-    width: 100px;
+.header__box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    margin-bottom: 20px;
 }
 
 
