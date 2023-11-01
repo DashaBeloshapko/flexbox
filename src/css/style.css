@@ -1,6 +1,33 @@
 header {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 body {
     width: 1140px;
+}
+h5 {
+    width: 505px;
+}
+.section {
+    display: flex;
+    justify-content: space-around;
+}
+.section__block__1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.section__block__picture {
+    width: 555px;
+    height: 420px;
+    display: flex;
+    background-color: #FCF2EB;
+    justify-content: center;
+    align-items: center;
+}
+.section__block__1__picture {
+    width: 373px;
+    height: 278px;
 }
