@@ -7,13 +7,10 @@ body {
     height: 40px;
     background-color: blue;
     border: 2px solid darkblue;
+    flex-direction: row-reverse;
 }
 .header__button {
     color: white;
     border: none;
     background-color: blue;
-}
-.header__button:first-child {
-    background-color: white;
-    color: blue;
 }
