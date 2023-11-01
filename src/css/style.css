@@ -1,17 +1,6 @@
+header {
+    text-align: center;
+}
 body {
-    width: 80%;    
+    width: 1140px;
 }
-.header {                
-    display: flex;      
-    flex-wrap: wrap; 
-    justify-content: space-between;  
-    border: 2px solid blue;    
-}
-.header__box {
-    width: 200px;
-    height: 200px;
-    border: 2px solid blue;
-    margin-bottom: 20px;
-}
-
-
