@@ -8,7 +8,8 @@ body {
     background-color: rgb(0, 102, 255);
     border: 2px solid darkblue;  
     justify-content: end;   
-    align-items: center;  
+    align-items: center; 
+    flex-direction: row-reverse; 
 }
 .header__button {
     color: white;
