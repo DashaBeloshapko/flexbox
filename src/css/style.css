@@ -1,16 +1,22 @@
 body {
-    width: 1170px;
+    width: 1170px;      
 }
 .header {                
     display: flex;
     justify-content: space-between;
-    height: 40px;
-    background-color: blue;
-    border: 2px solid darkblue;
-    flex-direction: row-reverse;
+    height: 100px;
+    background-color: rgb(0, 102, 255);
+    border: 2px solid darkblue;  
+    justify-content: center;     
 }
 .header__button {
     color: white;
-    border: none;
-    background-color: blue;
+    border: 1px solid darkblue;
+    background-color: rgb(0, 102, 255);  
+    display: flex;
+    align-items: flex-start;    
 }
+.header__button:nth-child(3) {
+    width: 100px;
+}
+
