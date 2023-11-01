@@ -1,0 +1,19 @@
+body {
+    width: 1170px;
+}
+.header {                
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color: blue;
+    border: 2px solid darkblue;
+}
+.header__button {
+    color: white;
+    border: none;
+    background-color: blue;
+}
+.header__button:first-child {
+    background-color: white;
+    color: blue;
+}
